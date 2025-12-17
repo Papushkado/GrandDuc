@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Paroles – [NOM DE L'ALBUM]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paroles officielles de l'album [NOM DE L'ALBUM] par [NOM D'ARTISTE].">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lyrics-body">
+    <div class="background-glow"></div>
+
+    <header class="main-header">
+        <div class="logo-area">
+            <div class="logo-circle">◎</div>
+            <div class="logo-text">
+                <span class="artist-name">[NOM D'ARTISTE]</span>
+                <span class="album-name">[NOM DE L'ALBUM]</span>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html#hero">Accueil</a>
+            <a href="index.html#album">L'album</a>
+            <a href="index.html#photos">Photos</a>
+            <a href="#top" class="active">Paroles</a>
+            <a href="index.html#socials">Réseaux</a>
+        </nav>
+    </header>
+
+    <main class="lyrics-main" id="top">
+        <section class="lyrics-intro">
+            <h1>Paroles</h1>
+            <p>Retrouve ici les textes officiels de <strong>[NOM DE L'ALBUM]</strong>.</p>
+        </section>
+
+        <section class="lyrics-list">
+            <!-- Modèle d'un morceau -->
+            <article class="lyrics-track">
+                <header class="lyrics-track-header">
+                    <h2>01. [Titre 1]</h2>
+                    <span class="lyrics-meta">Prod. [Producteur] • 3:42</span>
+                </header>
+                <pre class="lyrics-text">
+[Couplet 1]
+Écris ici les paroles du morceau,
+ligne par ligne,
+comme tu le ferais dans un livret.
+
+[Refrain]
+Tu peux séparer les parties
+pour que ce soit plus lisible.</pre>
+            </article>
+
+            <article class="lyrics-track">
+                <header class="lyrics-track-header">
+                    <h2>02. [Titre 2]</h2>
+                    <span class="lyrics-meta">Prod. [Producteur] • 4:01</span>
+                </header>
+                <pre class="lyrics-text">
+[Couplet 1]
+Paroles du titre 2...
+                </pre>
+            </article>
+
+            <!-- Dupliquer le block <article> pour chaque titre -->
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-left">
+            <span>&copy; <span id="year"></span> [NOM D'ARTISTE]. Tous droits réservés.</span>
+        </div>
+        <div class="footer-right">
+            <a href="index.html#album">Retour à l'album</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
